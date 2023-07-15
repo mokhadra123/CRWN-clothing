@@ -12,6 +12,10 @@
   height: 80%;
   width: 60px;
 }
+.links-container {
+  display: flex;
+  align-items: center;
+}
 .nav-link {
   padding: 20px;
   font-weight: 600;

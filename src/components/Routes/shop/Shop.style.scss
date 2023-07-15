@@ -1,0 +1,7 @@
+.products-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 95%;
+  margin: 30px auto;
+  gap: 50px 10px;
+}
