@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import { ReactComponent as Crwnlogo } from "../../../assets/crwn.svg";
 import "./NavigationBar.style.scss";
 import { useUserContext } from "../../../context/User.context";
