@@ -18,16 +18,18 @@
     opacity: 0.7;
     position: absolute;
     top: 255px;
-    // display: none;
+    display: none;
   }
   &:hover {
-    // opacity: 0.8;
+    opacity: 0.85;
+
     color: black;
   }
 }
 .product-card-container:hover {
   button {
     display: block;
+    opacity: 1;
   }
 }
 .footer {

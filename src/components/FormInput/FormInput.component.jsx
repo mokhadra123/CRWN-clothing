@@ -1,19 +1,15 @@
 import React from "react";
-import "./FormInput.sytle.scss";
+import { FormInputLabel, Group, Input } from "./FormInput.sytle.jsx";
 const FormInput = ({ label, ...otherProps }) => {
   return (
-    <div className="group">
-      <input className="form-input" {...otherProps} />
+    <Group className="group">
+      <Input className="form-input" {...otherProps} />
       {label && (
-        <label
-          className={`${
-            otherProps.value.length ? "shrink" : "null"
-          } form-input-label`}
-        >
+        <FormInputLabel shrink={otherProps.value.length}>
           {label}
-        </label>
+        </FormInputLabel>
       )}
-    </div>
+    </Group>
   );
 };
 
